@@ -31,6 +31,9 @@ public class Practice2{
 		float f1 = 10.11f;
 		a = (int)f1;
 		System.out.println(a+"\t"+f1);
+		short s2 = 10;
+		s2 = (short)(s2+10);
+		System.out.println(s2);
 
 	}
 }
