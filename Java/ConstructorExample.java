@@ -1,4 +1,12 @@
+package p1;
+
+//access modifier types: private, default, protected, public 
+
 class Parentclass{
+
+	void randomfunction(){
+		System.out.println("Random Output");
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Hello");
@@ -7,7 +15,7 @@ class Parentclass{
 
 public class ConstructorExample extends Parentclass{
 
-	ConstructorExample(){
+	public ConstructorExample(){
 		System.out.println("This is normal constructor for the class");
 	}
 
