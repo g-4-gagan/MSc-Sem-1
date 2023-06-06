@@ -1,0 +1,26 @@
+OS Commands 
+-------------
+
+find, cut, grep, chmod, chown, chroot
+
+whoami, w, who
+mv file1 file2
+cp file1 file2
+rm filename
+rm -f filename
+cat filename
+cat >> filename or echo "text" >> filename
+cat file1 file2 ..... filen-1 > filen
+ls -l
+chmod 764 filename
+rmdir dir_name
+tail -10 filename
+head -10 filename
+date
+
+unmask(0) //permisiion related
+
+for compiling and executing 
+> gcc abc.c -o abc
+> ./abc.exe parameters
+
