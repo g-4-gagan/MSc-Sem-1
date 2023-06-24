@@ -24,3 +24,16 @@ for compiling and executing
 > gcc abc.c -o abc
 > ./abc.exe parameters
 
+---------------------
+sysytem calls
+---------------------
+
+creat
+open
+read
+write
+pipes(named and unnamed)
+close
+
+menu driven
+
