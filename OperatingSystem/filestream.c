@@ -47,18 +47,20 @@ int openFile(char* path, int mode){
 	}
 
 	if(fd == -1){
-		printf("Error while opening file check for file with given path and its permissions");
+		printf("Error while opening file check for file with given path and its permissions\n");
 	}
 
 	return fd;
 }
 
+void writeToFile()
+
 int closeFile(int fd){
 	int res = close(fd);
 	if(res == -1){
-		printf("Error while closing the file");
+		printf("Error while closing the file\n");
 	}
-	
+
 	return res;
 }
 

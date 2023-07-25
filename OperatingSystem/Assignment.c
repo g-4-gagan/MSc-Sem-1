@@ -57,6 +57,7 @@ int main(int argc, char const *argv[])
 						printf("Enter file permission in format 'rwxrwxrwx(USR-GRP-OTH)':\n");
 						scanf("%s", perm);
 						int fd = 12;
+						// code for creating file package call
 						if(fd!=-1){
 							bool int_flag = true;
 							printf("File created Successfully and opened in write mode: \n");
@@ -81,6 +82,15 @@ int main(int argc, char const *argv[])
 												break;
 										case 2: printf("closing file and return to main menu\n");
 												int_flag = false;
+												//code for closing the fd 
+												int res = 0;
+												if(res == -1){
+													int_flag = true;
+													printf("Can't close the file, returning to main menu failed\n");
+												}
+												else{
+													printf("File closed Successfully\n");
+												}												
 												break;
 										case 3: printf("Other operations:\n");
 												break;		
